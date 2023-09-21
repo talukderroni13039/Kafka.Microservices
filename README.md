@@ -12,12 +12,13 @@ Make sure all services are running using following command:
 docker ps.
 
 To redeploy any image :
-        docker compose -f docker-compose-sftp-splitter-beta.yaml stop
-        docker ps -a
-        docker rm container_id
-        docker images
-        docker rmi 41f3c604f0de
-        docker compose -f docker-compose-sftp-splitter-beta.yaml up -d 
-        docker ps
+
+                docker compose -f docker-compose-sftp-splitter-beta.yaml stop
+                docker ps -a
+                docker rm container_id
+                docker images
+                docker rmi 41f3c604f0de
+                docker compose -f docker-compose-sftp-splitter-beta.yaml up -d 
+                docker ps
 
 Here is producer and consumer API as well as follow consumer1 and consumer2 which is console app.
