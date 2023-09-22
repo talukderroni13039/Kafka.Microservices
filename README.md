@@ -22,3 +22,4 @@ To redeploy an image :
         docker ps
         ```
 Here is producer and consumer API as well as follow consumer1 and consumer2 which is console app.
+GroupId wold be different for different consumer for subscrope simultaneously.
